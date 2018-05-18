@@ -8,12 +8,12 @@ If you want to view the source for this project, look at:
 
 To test it yourself, visit https://the-inhuman-account.github.io/dashb_v6, or run these commands in a terminal:
 
-	## MacOS
+## MacOS
 	```bash
 		open index.html
 	```
 
-	## Linux
+## Linux
 	```bash
 		xdg-open index.html
 	```
