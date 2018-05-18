@@ -10,12 +10,12 @@ To test it yourself, visit https://the-inhuman-account.github.io/dashb_v6, or ru
 
 ## MacOS
 ```bash
-	open index.html
+ open index.html
 ```
 
 ## Linux
 ```bash
-	xdg-open index.html
+ xdg-open index.html
 ```
 
 Enjoy!
