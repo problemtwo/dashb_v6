@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+html,body{width:100%;height:100%;margin:0;padding:0;overflow:hidden;}
+html{--shade:#e67e22;}
+.cell{float:left;width:33.33%;height:50%;background:#1a1a1c;
+      display:flex;justify-content:center;align-items:center;}
+.cell>div{width:90%;height:90%;background:var(--shade);border-radius:5%;}
+#time div{display:flex;justify-content:center;align-items:center;
+          font-family:'Ubuntu Condensed';font-size:4em;color:#1a1a1c;}
+#time div::-moz-selection{background:#1a1a1c;color:var(--shade);}
+#time div::selection{background:#1a1a1c;color:var(--shade);}
+#date>div{background:#1a1a1c;}
+#date-a{background:#2b2b2d;color:var(--shade);float:left;width:100%;height:40%;border-bottom-left-radius:0;
+                                                                       border-bottom-right-radius:0;}
+#date-b{background:var(--shade);color:#1a1a1c;float:left;width:100%;height:60%;border-top-left-radius:5%;}
+#date-a,#date-b{font-family:'Ubuntu Condensed';font-size:4em;display:flex;justify-content:center;align-items:center;}
+#date-a::-moz-selection{background:var(--shade);color:#2b2b2d;}
+#date-a::selection{background:var(--shade);color:#2b2b2d;}
+#date-b::-moz-selection{background:#1a1a1c;color:var(--shade);}
+#date-b::selection{background:#1a1a1c;color:var(--shade);}
+div.day{float:left;width:14.28%;height:20%;display:flex;font-family:'Ubuntu Condensed';background:var(--shade);color:#1a1a1c;
+        justify-content:center;align-items:center;font-size:3em;-moz-user-select:none;user-select:none;}
+.day.current-day{background:#1a1a1c;color:var(--shade);}
+#reminders>div{background:#1a1a1c;}
+#reminders-a{background:#2b2b2d;color:var(--shade);float:left;width:100%;height:20%;border-bottom-left-radius:0;
+                                                                               border-bottom-right-radius:0;}
+#reminders-b{background:var(--shade);color:#1a1a1c;float:left;width:100%;height:80%;border-top-left-radius:5%;}
+#reminders-a,#reminders-b{font-family:'Ubuntu Condensed';font-size:4em;}
+#reminders-a textarea,#reminders-a button{float:left;width:50%;height:100%;background:#2b2b2d;color:var(--shade);margin:0;
+	                                         border:none;outline:none;resize:none;font-family:'Ubuntu Condensed';
+																																										font-size:0.75em;border-top-left-radius:5%;border-top-right-radius:5%;
+																																									 padding:0;}
+#reminders-a textarea::-moz-selection{background:var(--shade);color:#2b2b2d;}
+#reminders-a textarea::selection{background:var(--shade);color:#2b2b2d;}
+div.reminder{float:left;width:100%;height:10%;background:var(--shade);color:#2b2b2d;text-align:center;
+          font-family:'Ubuntu Condensed';font-size:.35em;}
+div.reminder::-moz-selection{background:#2b2b2d;color:var(--shade);}
+div.reminder::selection{background:#2b2b2d;color:var(--shade);}
+.goal{float:left;width:100%;height:33.33%;background:#2b2b2d;}
+.goal-name{float:left;margin:0;padding:0;width:50%;height:100%;background:#2b2b2d;color:var(--shade);font-size:2em;
+           border:none;outline:none;resize:none;font-family:'Ubuntu Condensed';overflow:hidden;}
+.goal-name::-moz-selection{background:var(--shade);color:#2b2b2d;}
+.goal-name::selection{background:var(--shade);color:#2b2b2d;}
+.goal-completion{float:left;width:50%;height:100%;margin:0;padding:0;background:var(--shade);font-size:0;user-select:none;}
+#change-color{background:#1a1a1c;width:100%;height:10%;float:left;border:0;outline:0;resize:none;
+              color:var(--shade);font-family:'Ubuntu Condensed';}
+#change-color::-moz-selection{background:var(--shade);color:#1a1a1c;}
+#change-color::selection{background:var(--shade);color:#1a1a1c;}
+#add-reminder{user-select:none;}
